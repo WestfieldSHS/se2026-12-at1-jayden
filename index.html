@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MusicTech: choose a topic and follow focused content to improve." />
+    <link rel="stylesheet" href="main.css" />
+    <title>MusicTech</title>
+    <link rel="icon" type="image/x-icon" href="../PFTW/icon/favicon.ico.png" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html">
+        <img src="image/Screenshot 2026-02-04 102235.png" alt="MusicTech Musical Tutoring logo" class="brand-logo" />
+        </a>
+
+        <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="page4.html">About</a>
+        </nav>
+
+        <form class="search" role="search" action="#">
+        <label class="sr-only" for="searchInput">Search topics</label>
+        <input type="search" id="searchInput" placeholder="Search topics..." autocomplete="off" />
+        <button id="searchBtn" type="button">Search</button>
+        </form>
+    </div>
+    </header>
+
+    <section class="hub">
+    <div class="container">
+        <div class="hub-card">
+        <h1 class="hub-title">Choose a topic</h1>
+        <p class="hub-subtitle">
+            Pick what you want to work on today, each section has focused content to help you improve.
+        </p>
+
+        <div class="tip-banner" role="note" aria-label="Quick tip">
+            <span class="tip-title">Quick tip:</span>
+            <span class="tip-text">Consistency beats intensity. Small daily practice wins.</span>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <main class="container main" id="main">
+    <section class="section" id="topics" aria-label="Topics">
+        <p id="noResults" class="notice" hidden>
+        No results found. Try “techniques”, “sheet”, or “songs”.
+        </p>
+
+        <div class="card-grid">
+        <article class="card" data-card data-search="techniques scales picking rhythm practice habits guitar warmup metronome">
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104159.png" alt="Close-up of a person playing guitar strings" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Techniques</h3>
+            <p class="card-text">Warmups, picking control, timing, and practice habits.</p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="item1.html">Explore</a>
+            </div>
+        </article>
+
+        <article class="card" data-card data-search="sheet music theory notes rhythm sight reading notation time signatures">
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104510.png" alt="Sheet music with musical notes and staves" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Sheet Music</h3>
+            <p class="card-text">Notation, rhythm, and sight-reading routines.</p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="item2.html">Explore</a>
+            </div>
+        </article>
+
+        <article class="card" data-card data-search="songs influencers artists inspiration learning repertoire practice plan">
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104752.png" alt="Silhouettes of musicians performing with instruments" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Songs / Influencers</h3>
+            <p class="card-text">Song ideas, learning steps, and creators to study.</p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="item3.html">Explore</a>
+            </div>
+        </article>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+        <strong>MusicTech</strong>
+        <p class="footer-text">Musical tutoring resources and learning paths.</p>
+        </div>
+        <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="page4.html">About</a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

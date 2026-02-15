@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MusicTech: techniques, sheet music, and songs/influencers organised to help you learn faster." />
+    <link rel="stylesheet" href="main.css" />
+    <title>MusicTech</title>
+    <link rel="icon" type="image/x-icon" href="../PFTW/icon/favicon.ico.png" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="index.html">
+        <img
+            src="image/Screenshot 2026-02-04 102235.png"
+            alt="MusicTech Musical Tutoring logo"
+            class="brand-logo"
+        />
+        </a>
+
+        <nav class="nav" aria-label="Main navigation">
+        <a class="nav-link is-active" href="index.html" aria-current="page">Home</a>
+        <a class="nav-link" href="page2.html">Page 2</a>
+        <a class="nav-link" href="page3.html">Page 3</a>
+        <a class="nav-link" href="page4.html">About</a>
+        </nav>
+
+        <form class="search" role="search" action="#">
+        <label class="sr-only" for="searchInput">Search topics</label>
+        <input type="search" id="searchInput" placeholder="Search topics..." autocomplete="off" />
+        <button id="searchBtn" type="button">Search</button>
+        </form>
+    </div>
+    </header>
+
+    <section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-copy">
+        <h1 class="hero-title">Learn music the smart way</h1>
+        <p class="hero-subtitle">
+            Techniques, sheet music, and songs/influencers — organised so you can improve faster and stay motivated.
+        </p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="#topics">Explore topics</a>
+            <a class="btn btn-ghost" href="page4.html">About MusicTech</a>
+        </div>
+        </div>
+
+        <div class="hero-card" aria-label="Quick tip">
+        <div class="hero-card-top">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        </div>
+        <div class="hero-card-body">
+            <p class="hero-card-kicker">Quick tip</p>
+            <p class="hero-card-text">
+            Consistency beats intensity. Small daily practice wins.
+            </p>
+            <!-- Removed the “Start with Techniques” pill -->
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <main class="container main" id="main">
+    <section class="section" id="topics" aria-label="Topics">
+        <div class="section-head">
+        <h2 class="section-title">Choose a topic</h2>
+        <p class="section-desc">
+            Pick what you want to work on today — each section has focused content.
+        </p>
+        </div>
+
+        <p id="noResults" class="notice" hidden>
+        No results found. Try searching “techniques”, “sheet”, or “songs”.
+        </p>
+
+        <div class="card-grid">
+        <article class="card"
+            data-card
+            data-search="techniques scales picking rhythm practice habits"
+        >
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104159.png" alt="Close-up of a person playing guitar strings" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Techniques</h3>
+            <p class="card-text">
+                Physical and habit techniques like scales, styles, and methods for adaptability.
+            </p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="page2.html">Explore</a>
+            </div>
+        </article>
+
+        <article class="card"
+            data-card
+            data-search="sheet music theory notes rhythm sight reading notation"
+        >
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104510.png" alt="Sheet music with musical notes and staves" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Sheet Music</h3>
+            <p class="card-text">
+                Written theory used to understand concepts visually and improve sight-reading.
+            </p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="page3.html">Explore</a>
+            </div>
+        </article>
+
+        <article class="card"
+            data-card
+            data-search="songs influencers artists inspiration learning repertoire"
+        >
+            <div class="card-media">
+            <img src="image/Screenshot 2026-02-04 104752.png" alt="Silhouettes of musicians performing with instruments" />
+            </div>
+            <div class="card-body">
+            <h3 class="card-title">Songs / Influencers</h3>
+            <p class="card-text">
+                Artists and songs that match the style you want to learn.
+            </p>
+            </div>
+            <div class="card-actions">
+            <a class="btn btn-secondary" href="item3.html">Explore</a>
+            </div>
+        </article>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+        <strong>MusicTech</strong>
+        <p class="footer-text">Musical tutoring resources and learning paths.</p>
+        </div>
+
+        <div class="footer-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="page4.html">About</a>
+        <a href="#topics">Topics</a>
+        </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
